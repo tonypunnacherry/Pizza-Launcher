@@ -1,5 +1,5 @@
 # Pizza Launcher
-This is a planned project that will create a unique Minecraft Java game launcher and potentially an in-game client as well. The main goal is to save players time in setting up different profiles of the game and help keep settings updated across versions. (Example: 1.8.9 client with mods for legacy PVP or a 1.16.1 client for speedrunning).
+This is a planned project that will create a unique Minecraft Java game launcher and potentially an in-game client as well. Currently, organizing different modded instances/versions of the game is pretty challenging (requires you to download the game, open it, install Fabric, open it with Fabric, populate the profile folder, load in the mods, then finally open the game). My goal is to make all of this happen with the click of one button! I wish to save players time in setting up different profiles of the game and help keep settings updated across versions. (Example: 1.8.9 client with mods for legacy PVP or a 1.16.1 client for speedrunning).
 
 ## Concept
 1. Users will be able to create "profiles" with their favorite versions and mod settings
@@ -13,6 +13,7 @@ This is a planned project that will create a unique Minecraft Java game launcher
 2. Options will be provided to map sensitivity/FOV accurately from other games, allowing players to transition into the game more easily
 3. Select mods will be automatically available to be added. Other mods can easily be supported by the launcher via links from various mod sites
 4. The newest version will automatically be downloaded and set up (if you enable this option) as soon as possible
+
 ...more to be planned!
 
 ## Timeline
