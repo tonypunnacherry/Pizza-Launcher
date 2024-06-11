@@ -20,4 +20,5 @@ This is a planned project that will create a unique Minecraft Java game launcher
 Currently, the project will be only be developed privately. There is no timeline for completion or public release (if it happens at all). In the future, I may consider extending this to a full performant Fabric-based client with special mods built-in.
 
 ## Considerations
-The security of our users will be very important. For now, only a few accounts will be used to test/develop this project. We recognize that tokens can be misused to play the game maliciously on other users account. If we release this to the public, a top priority will be to ensure the security and safety of user tokens.
+1. **protection from others:** The security of our users will be very important. For now, only a few accounts will be used to test/develop this project. We recognize that tokens can be misused to play the game maliciously on other users account. If we release this to the public, a top priority will be to ensure the security and safety of user tokens.
+2. **protection from itself:** The code will be working with files in `.minecraft` to organize mods and prepare new profiles. It will be critical that my code does not accidentally delete or corrupt important files related to the game. Different measures to prevent this from occurring will be implemented. 
